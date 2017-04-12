@@ -8,11 +8,14 @@ class PagesController extends Controller
 {
     public function contact()
     {
-    	return 'To jest strona kontakt';
+    	$header = 'to jest nagłówek strony Kontakt';
+    	$date = 'Data: 20/03/2017';
+    	$visited = 'Liczba wizyt: 3526';
+    	return view('pages.contact' , compact('header' , 'date' , 'visited'));
     }
      
      public function about()
     {
-    	return 'To jest strona o nas';
+    	return view('pages.about');
     }
 }
