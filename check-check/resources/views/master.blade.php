@@ -1,11 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="pl">
+<head ng-app="Check-check">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Check Check - projekt pod kontrolą</title>
+
+    <!--AngularJS-->
+    <script src="node_modules/es6-shim/es6-shim.js"></script>
+    <script src="node_modules/angular2/bundles/angular2-polyfills.js"></script>
+    <script src="node_modules/systemjs/dist/system.src.js"></script>
+    <script src="node_modules/rxjs/bundles/Rx.js"></script>
+    <script src="node_modules/angular2/bundles/angular2.dev.js"></script>
+    <script>   
+            System.config({
+                packages: {
+                    app: {
+                    format: 'register',
+                    defaultExtension: 'js'
+                    }
+                }
+            });
+
+            System.import('app/boot.js')
+                .then(null, console.error.bind(console));
+
+         </script>
 
     <!-- Fonts -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" rel='stylesheet' type='text/css'>
@@ -60,7 +81,7 @@
                         <li><a href="register">Rejestracja</a></li>
                 </ul>
             </div>
-        </div>
+        </div>        
     </nav>
 
     <!-- wrapper -->
@@ -73,7 +94,7 @@
         
     </div><!-- end of wrapper -->
     
-
+    <menu></menu>
     <!-- Footer -->
     <footer class="site-footer">
         <div class="container">
@@ -85,5 +106,16 @@
     <!-- JavaScripts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    {{-- <script src="app/app.component.js"></script> --}}
+
+     <!-- Load Javascript Libraries (AngularJS, JQuery, Bootstrap) -->
+        <script src="node_modules/angular2//bundles/web_worker/angular2.min.js"></script>
+        
+        <script src="node_modules/jquery-3.2.1.min.js"></script>
+        <script src="node_modules/bootstrap.js"></script>
+        
+        <!-- AngularJS Application Scripts -->
+        {{-- <script src="/app.js"></script> --}}
+        
 </body>
 </html>
