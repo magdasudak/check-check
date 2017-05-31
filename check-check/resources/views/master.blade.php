@@ -61,7 +61,9 @@
 
                 <!-- Branding Image -->
                 <a class="navbar-brand" href="#">
-                    Check Check 
+                    <div class="banner-logo text-center">
+                        <img src="img/logo.jpg" class="img-responsive">
+                    </div> 
                 </a>
             </div>
 
