@@ -81,8 +81,8 @@
                         <li class=""><a href="#about">O nas</a></li>
                         <li><a href="articles.html">Projekty</a></li>
                         <li class=""><a href="#contact">Kontakt</a></li>
-                        <li><a href="login">Zaloguj</a></li>
-                        <li><a href="register">Rejestracja</a></li>
+                        <li class="login"><a href="login">Zaloguj</a></li>
+                        <li class="register"><a href="register">Rejestracja</a></li>
                     </ul>
                 </div>
             </div>
