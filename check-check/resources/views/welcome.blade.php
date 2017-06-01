@@ -13,24 +13,10 @@
             @endif --}}
 
             <div class="content">
-                <!DOCTYPE html>
-                <html lang="pl">
-                  <head>
-                    <meta charset="utf-8">
-                    <meta name="viewport" content="width=device-width, initial-scale=1">
-                   
-                    
-                    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat">
-                    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
-                    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-                    <link rel="stylesheet" type="text/css" href="css/style.css">
-                  
-                  </head>
-                  <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
                     <!--banner-->
                     <section id="banner" class="banner">
-                        <div class="bg-color"> 
-                                                 
+                        <div class="bg-color">
+
                             <div class="container">
                                 <div class="row">
                                     <div class="banner-info">
@@ -45,7 +31,7 @@
                                         </div>
                                         <div class="overlay-detail text-center">
                                            <a href="#service"><i class="fa fa-angle-down"></i></a>
-                                         </div>     
+                                         </div>
                                     </div>
                                 </div>
                             </div>
@@ -210,15 +196,7 @@
                         </div>
                     </section>
                     <!--/ contact-->
-                    
-                    
-                    <script src="js/jquery.min.js"></script>
-                    <script src="js/jquery.easing.min.js"></script>
-                    <script src="js/bootstrap.min.js"></script>
-                    <script src="js/custom.js"></script>
-                    <script src="contactform/contactform.js"></script>
-                    
-                  </body>
-                </html>
+
+
                             </div>
  @stop
