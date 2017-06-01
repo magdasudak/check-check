@@ -68,7 +68,8 @@ banner
     border-radius: 0px;
 }
 .navbar-default {
-    background-color: #fff;
+    background-color: rgba(28,74,90, 0.9);
+    color: rgba(28,74,90, 0.9);
     padding: 20px 0;
     transition: all 0.3s;
 }
@@ -97,12 +98,13 @@ banner
 
 .top-nav-collapse {
     padding: 0; 
-    background: rgba(28,74,90, 0.9);
+    background-color: rgba(28,74,90, 0.9);
+    color: rgba(28,74,90, 0.9);
 }
 
 .white, .white:hover, .white:focus
 {
-	color: #fff;
+	color: #2c426a;
 	width: 100% !important;
 }
 .block
@@ -141,7 +143,8 @@ banner
 	position: relative;
 }
 .bg-color{
-	background-color: RGBA(13, 70, 83, 0.78);
+	background-color: rgba(129, 167, 189, 0.7);
+    color: rgba(129, 167, 189, 0.7); 
 	min-height: 650px;
 }
 .banner-info{
