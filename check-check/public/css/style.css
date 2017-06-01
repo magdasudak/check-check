@@ -68,13 +68,10 @@ banner
     border-radius: 0px;
 }
 .navbar-default {
-    background-color: rgba(28,74,90, 0.9);
+    background-color: rgba(28,74,90, 1);
     color: rgba(28,74,90, 0.9);
     padding: 20px 0;
     transition: all 0.3s;
-}
-.navbar-default {
-    background-color: transparent;
     border: 0px;
 }
 .navbar {
