@@ -1,41 +1,6 @@
 @extends('master')
 @section('content')
 
-    {{--@if (Route::has('login'))
-       <div class="top-right links">
-           @if (Auth::check())
-               <a href="{{ url('/home') }}">Home</a>
-           @else
-               <a href="{{ url('/login') }}">Login</a>
-               <a href="{{ url('/register') }}">Register</a>
-           @endif
-       </div>
-   @endif --}}
-
-    <!--banner-->
-    <section id="banner" class="banner">
-        <div class="bg-color">
-
-            <div class="container">
-                <div class="row">
-                    <div class="banner-info">
-                        <div class="banner-logo text-center">
-                            <h1 class="white">Check-check</h1>
-                        </div>
-                        <div class="banner-text text-center">
-                            <h1 class="white">Zarządzaj swoimi projektami</h1>
-                            <p>Szybciej i łatwiej kontaktuj się ze swoimi klientami. </p>
-                            <p>Miej swój projekt pod kontrolą. Sprawdzaj na jakim etapie są prace.</p>
-                            <a href="#contact" class="btn btn-appoint">Napisz do nas</a>
-                        </div>
-                        <div class="overlay-detail text-center">
-                            <a href="#service"><i class="fa fa-angle-down"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
     <!--/ banner-->
     <!-- .container -->
     <div class="container site-content">
@@ -56,7 +21,7 @@
                         <div class="col-md-4 col-sm-4">
                             <div class="service-info">
                                 <div class="icon">
-                                    <i class="fa fa-stethoscope"></i>
+                                    <i class="fa fa-clock-o" aria-hidden="true"></i>
                                 </div>
                                 <div class="icon-info">
                                     <h4>24 H dostęp do projektu</h4>
@@ -66,7 +31,7 @@
                             </div>
                             <div class="service-info">
                                 <div class="icon">
-                                    <i class="fa fa-ambulance"></i>
+                                    <i class="fa fa-comments-o" aria-hidden="true"></i>
                                 </div>
                                 <div class="icon-info">
                                     <h4>Bezpośredni kontakt</h4>
@@ -78,7 +43,7 @@
                         <div class="col-md-4 col-sm-4">
                             <div class="service-info">
                                 <div class="icon">
-                                    <i class="fa fa-user-md"></i>
+                                    <i class="fa fa-user-circle-o" aria-hidden="true"></i>
                                 </div>
                                 <div class="icon-info">
                                     <h4>Konsultacje projektów</h4>
@@ -88,7 +53,7 @@
                             </div>
                             <div class="service-info">
                                 <div class="icon">
-                                    <i class="fa fa-medkit"></i>
+                                    <i class="fa fa-usd" aria-hidden="true"></i>
                                 </div>
                                 <div class="icon-info">
                                     <h4>Usługi premium</h4>
@@ -139,6 +104,7 @@
                                 </div>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </section>
@@ -217,6 +183,12 @@
                                         <button type="submit" class="btn btn-form">Wyślij wiadomość</button>
                                     </div>
                                 </form>
+
+                    </section>
+                    <!--/ contact-->
+
+
+
                             </div>
                         </div>
                     </div>
