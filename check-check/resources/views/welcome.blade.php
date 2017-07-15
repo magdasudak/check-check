@@ -186,17 +186,4 @@
 
                     </section>
                     <!--/ contact-->
-
-
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!--/ contact-->
-
-
-        </div>
-    </div>
 @stop
